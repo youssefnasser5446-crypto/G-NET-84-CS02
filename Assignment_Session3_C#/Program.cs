@@ -61,6 +61,23 @@
             //string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
             //Console.WriteLine(sizeLabel);
             #endregion
+
+            #region Question04
+
+            /*
+             4. Given string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };,
+            use a for loop to print each book with its position number, like 1. Clean Code.
+             */
+
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            for (int i = 0; i<= books.Length -1 ; i++)
+            {
+                Console.WriteLine($"{(i+1)+". "+ books[i]}");
+            }
+
+            #endregion
+
+
         }
     }
 }
