@@ -121,6 +121,23 @@
             }
 
             #endregion
+
+            #region Question08
+
+            /*
+             8. Using the same books array,
+            loop through it and print each title,
+            but stop completely (break) once you reach "Refactoring".
+             */
+            Console.WriteLine("break===========================");
+            for (int T = 0; T < books.Length; T++)
+            {
+                if (books[T] == "Refactoring")
+                    break;
+                Console.WriteLine(books[T]);
+            }
+
+            #endregion
         }
     }
 }
