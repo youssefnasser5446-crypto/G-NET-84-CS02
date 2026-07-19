@@ -77,7 +77,20 @@
 
             #endregion
 
+            #region Question05
 
+            /*
+             5. Using the same books array, use a while loop to print every book title
+             */
+            Console.WriteLine("while loop ================");
+            int j = 0; 
+            while (j < books.Length)
+            {
+                Console.WriteLine(j+1 +". " + books[j]);
+                j++;
+            }
+
+            #endregion
         }
     }
 }
