@@ -138,6 +138,24 @@
             }
 
             #endregion
+
+            #region Question09
+
+            /*
+             9. Using the same books array
+            print every title except 
+            "The Pragmatic Programmer" (skip it with continue, don't stop the loop).
+             */
+
+            Console.WriteLine("continue===========================");
+            for (int T = 0; T < books.Length; T++)
+            {
+                if (books[T] == "The Pragmatic Programmer")
+                    continue;
+                Console.WriteLine(books[T]);
+            }
+
+            #endregion
         }
     }
 }
