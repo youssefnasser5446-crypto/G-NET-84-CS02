@@ -108,7 +108,19 @@
 
             #endregion
 
+            #region Question07
 
+            /*
+              7. Using the same books array,
+            use a foreach loop to print every book title.
+             */
+            Console.WriteLine("foreach =====================================");
+            foreach(string bookTitle in books)
+            {
+                Console.WriteLine(bookTitle);
+            }
+
+            #endregion
         }
     }
 }
